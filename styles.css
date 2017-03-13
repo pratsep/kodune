@@ -4,6 +4,7 @@
     position: fixed;
     left: 300px;
     top: 300px;
+    cursor: pointer;
 }
 .target_sub {
     border-radius: 50%;
