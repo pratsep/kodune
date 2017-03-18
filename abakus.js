@@ -3,7 +3,7 @@ window.onload = function() {
     for(var i = 0; i < elements.length; i++){
         elements[i].onclick = function() {
             //Niisama cssFloat küsimine ei tööta sest on eraldi failis määratud css
-            var kus = window.getComputedStyle(this).cssFloat;
+            var kus = getComputedStyle(this).cssFloat;
             if (kus == "right") {
                 this.style.cssFloat = "left";
             }
