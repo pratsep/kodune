@@ -34,7 +34,6 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
     $loik = explode("\n", $text);
     foreach($loik as $tulemus){
         echo "<p>";
-        echo substr($tulemus, 0);
         echo substr_replace($tulemus[0], '<span>'.$tulemus[0].'</span>', 0);
         echo substr($tulemus, 1);
         echo "</p>";
